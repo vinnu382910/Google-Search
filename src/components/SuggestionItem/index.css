@@ -1,0 +1,17 @@
+/* Write your CSS here */
+
+.google-suggestion-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.google-suggestion-item {
+  font-size: 12px;
+  font-family: Roboto;
+}
+
+.google-arrow-img {
+  height: 22px;
+  margin-right: 24px;
+}

@@ -1,0 +1,58 @@
+/* Write your CSS here */
+
+.main-cont {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.google-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-image {
+  height: 110px;
+}
+
+.google-search-cont {
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+  width: 590px;
+  background-size: cover;
+  border-radius: 10px;
+  border-color: transparent;
+  padding: 5px;
+}
+
+.google-input-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-search-input {
+  width: 100%;
+  border-color: transparent;
+  height: 32px;
+  outline: none;
+  font-family: Roboto;
+  color: hwb(300 0% 95%);
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.google-search-icon {
+  height: 20px;
+}
+
+.googlesuggestions-cont {
+  list-style-type: none;
+  padding: 0%;
+  margin-left: 10px;
+}
